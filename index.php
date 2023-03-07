@@ -32,7 +32,7 @@ while ($row = mysqli_fetch_assoc($req)){
                     <img src="image/<?=$row['img'] ?>" >
                 </div>
                 <div class= "content">
-                    <h4 class="name"><?=$row['nom'] ?> </h4>
+                    <h4 class="name"><?=$row['name'] ?> </h4>
                     <h2 classe="prix"><?=$row['prix'] ?> $</h2>
                     <a href="ajouter_panier.php?id=<?=$row['id']?>" class="id_produit">Ajouter au produit</a>
                 </div>

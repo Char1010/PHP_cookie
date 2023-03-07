@@ -1,2 +1,2 @@
 # PHP_cookie
-Travail de session cookie
+Travail PHP avec SESSION pour une panier 
